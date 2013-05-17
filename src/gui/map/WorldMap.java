@@ -17,13 +17,13 @@ public class WorldMap extends JLabel {
     private static WorldMap instance;
     
     // Properties
-    private final int INIT_X_LEFT = 10;
-    private final int INIT_Y_TOP = 66;
+    private final int INIT_X = 10;
+    private final int INIT_Y = 66;
     
     // Constructor
     private WorldMap() throws IOException {
         super(new ImageIcon(ImageIO.read(new File("src/img/WorldMap.jpg"))));
-        this.setBounds(MainFrame.getInstance().getPaneInsets().left + INIT_X_LEFT, MainFrame.getInstance().getPaneInsets().bottom + INIT_Y_TOP, this.getPreferredSize().width, this.getPreferredSize().height);
+        this.setBounds(MainFrame.getInstance().getPaneInsets().left + INIT_X, MainFrame.getInstance().getPaneInsets().bottom + INIT_Y, this.getPreferredSize().width, this.getPreferredSize().height);
         
         
         // Add mouse listener this way because it was being a little annoying

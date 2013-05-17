@@ -34,7 +34,7 @@ public class MainFrame {
         // Frame
         frame = new JFrame("World Map");
         frame.setSize(FRAME_WIDTH, FRAME_HEIGHT);
-        //frame.setResizable(RESIZABLE);
+        frame.setResizable(RESIZABLE);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         // Contents
@@ -62,6 +62,4 @@ public class MainFrame {
     public Insets getPaneInsets() {
         return insets;
     }
-    
-    
 }
