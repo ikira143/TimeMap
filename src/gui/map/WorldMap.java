@@ -18,7 +18,7 @@ public class WorldMap extends JLabel {
     
     // Properties
     private final int INIT_X = 10;
-    private final int INIT_Y = 66;
+    private final int INIT_Y = 42;
     
     // Constructor
     private WorldMap() throws IOException {

@@ -9,10 +9,10 @@ public class OutTextAreaWrapper extends JScrollPane {
     private static final OutTextAreaWrapper instance = new OutTextAreaWrapper();
     
     // Properties
-    private final int WIDTH = 152;
-    private final int HEIGHT = 415;
-    private final int INIT_X = 620;
-    private final int INIT_Y = 10;
+    private final int WIDTH = 600;
+    private final int HEIGHT = 145;
+    private final int INIT_X = 10;
+    private final int INIT_Y = 410;
     private final boolean WHEEL_SCROLLABLE = true;
     
     // Constructor

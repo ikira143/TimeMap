@@ -19,8 +19,8 @@ public class MainFrame {
     private Insets insets;
     
     // Properties
-    private final int FRAME_WIDTH = 800;
-    private final int FRAME_HEIGHT = 480;
+    private final int FRAME_WIDTH = 628;
+    private final int FRAME_HEIGHT = 600;
     private final boolean RESIZABLE = false;
     
     // Constructor
