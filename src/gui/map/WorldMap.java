@@ -1,6 +1,8 @@
 package gui.map;
 
 import gui.frame.MainFrame;
+import gui.output.OutTextArea;
+import gui.time.TimeSelector;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
@@ -31,12 +33,12 @@ public class WorldMap extends JLabel {
 
             @Override
             public void mouseClicked(MouseEvent e) {
-                System.out.println(e.getX() + "  " + e.getY()) ;
+                MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
             }
 
             @Override
             public void mousePressed(MouseEvent e) {
-                
+                MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
             }
 
             @Override
@@ -62,5 +64,28 @@ public class WorldMap extends JLabel {
             instance = new WorldMap();
         }
         return instance;
+    }
+    
+    // Class for handling the updating of the output
+    private static class MapEventHandler {
+        
+        // Singleton
+        private static final MapEventHandler mapInstance = new MapEventHandler();
+        
+        // Constructor
+        private MapEventHandler() {
+            
+        }
+        
+        // Static factory
+        public static MapEventHandler getInstance() {
+            return mapInstance;
+        }
+        
+        // Member methods
+        public void processText(String timePeriod, int x, int y) {
+            
+            MainFrame.getInstance().repaint();
+        }
     }
 }

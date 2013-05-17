@@ -62,4 +62,8 @@ public class MainFrame {
     public Insets getPaneInsets() {
         return insets;
     }
+    
+    public void repaint() {
+        pane.repaint();
+    }
 }
