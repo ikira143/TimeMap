@@ -35,13 +35,12 @@ public class WorldMap extends JLabel {
 
             @Override
             public void mouseClicked(MouseEvent e) {
-                OutTextArea.getInstance().setText(e.getX() + " " + e.getY());
-                //MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
+                MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
             }
 
             @Override
             public void mousePressed(MouseEvent e) {
-                //MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
+                MapEventHandler.getInstance().processText(TimeSelector.getInstance().getSelectedItem().toString(), e.getX(), e.getY());
             }
 
             @Override
@@ -90,74 +89,134 @@ public class WorldMap extends JLabel {
             update("Click anywhere! By that I mean land.");
             
             if(timePeriod.equals("8000 BCE - 600 BCE")) {
-                if(Region.AFRICA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Africa");
-                }else if(Region.ASIA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Asia");
-                }else if(Region.EUROPE.mouseWithin(x, y)) {
+                if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | East Asia");
+                } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
-                }else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.MESO_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Meso America");
+                } else if(Region.MIDDLE_EAST.mouseWithin(x, y)) {
+                    update(timePeriod + " | Middle East");
+                } else if(Region.NORTH_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Africa");
+                } else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | North America");
-                }else if(Region.OCEANIA.mouseWithin(x, y)) {
+                } else if(Region.NORTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Asia");
+                } else if(Region.OCEANIA.mouseWithin(x, y)) {
                     update(timePeriod + " | Oceania");
-                }else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | South America");
+                } else if(Region.SOUTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South Asia");
+                } else if(Region.SUB_SAHARAN_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Sub-Saharan Africa");
+                } else if(Region.WEST_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | West Africa");
                 }
             } else if(timePeriod.equals("600 BCE - 600 CE")) {
-                if(Region.AFRICA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Africa");
-                }else if(Region.ASIA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Asia");
-                }else if(Region.EUROPE.mouseWithin(x, y)) {
+                if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | East Asia");
+                } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
-                }else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.MESO_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Meso America");
+                } else if(Region.MIDDLE_EAST.mouseWithin(x, y)) {
+                    update(timePeriod + " | Middle East");
+                } else if(Region.NORTH_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Africa");
+                } else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | North America");
-                }else if(Region.OCEANIA.mouseWithin(x, y)) {
+                } else if(Region.NORTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Asia");
+                } else if(Region.OCEANIA.mouseWithin(x, y)) {
                     update(timePeriod + " | Oceania");
-                }else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | South America");
+                } else if(Region.SOUTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South Asia");
+                } else if(Region.SUB_SAHARAN_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Sub-Saharan Africa");
+                } else if(Region.WEST_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | West Africa");
                 }
             } else if(timePeriod.equals("600 CE - 1450 CE")) {
-                if(Region.AFRICA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Africa");
-                }else if(Region.ASIA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Asia");
-                }else if(Region.EUROPE.mouseWithin(x, y)) {
+                if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | East Asia");
+                } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
-                }else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.MESO_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Meso America");
+                } else if(Region.MIDDLE_EAST.mouseWithin(x, y)) {
+                    update(timePeriod + " | Middle East");
+                } else if(Region.NORTH_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Africa");
+                } else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | North America");
-                }else if(Region.OCEANIA.mouseWithin(x, y)) {
+                } else if(Region.NORTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Asia");
+                } else if(Region.OCEANIA.mouseWithin(x, y)) {
                     update(timePeriod + " | Oceania");
-                }else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | South America");
+                } else if(Region.SOUTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South Asia");
+                } else if(Region.SUB_SAHARAN_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Sub-Saharan Africa");
+                } else if(Region.WEST_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | West Africa");
                 }
             } else if(timePeriod.equals("1450 CE - 1750 CE")) {
-                if(Region.AFRICA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Africa");
-                }else if(Region.ASIA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Asia");
-                }else if(Region.EUROPE.mouseWithin(x, y)) {
+                if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | East Asia");
+                } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
-                }else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.MESO_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Meso America");
+                } else if(Region.MIDDLE_EAST.mouseWithin(x, y)) {
+                    update(timePeriod + " | Middle East");
+                } else if(Region.NORTH_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Africa");
+                } else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | North America");
-                }else if(Region.OCEANIA.mouseWithin(x, y)) {
+                } else if(Region.NORTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Asia");
+                } else if(Region.OCEANIA.mouseWithin(x, y)) {
                     update(timePeriod + " | Oceania");
-                }else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | South America");
+                } else if(Region.SOUTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South Asia");
+                } else if(Region.SUB_SAHARAN_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Sub-Saharan Africa");
+                } else if(Region.WEST_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | West Africa");
                 }
             } else if(timePeriod.equals("1750 CE - Present")) {
-                if(Region.AFRICA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Africa");
-                }else if(Region.ASIA.mouseWithin(x, y)) {
-                    update(timePeriod + " | Asia");
-                }else if(Region.EUROPE.mouseWithin(x, y)) {
+                if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | East Asia");
+                } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
-                }else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.MESO_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Meso America");
+                } else if(Region.MIDDLE_EAST.mouseWithin(x, y)) {
+                    update(timePeriod + " | Middle East");
+                } else if(Region.NORTH_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Africa");
+                } else if(Region.NORTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | North America");
-                }else if(Region.OCEANIA.mouseWithin(x, y)) {
+                } else if(Region.NORTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North Asia");
+                } else if(Region.OCEANIA.mouseWithin(x, y)) {
                     update(timePeriod + " | Oceania");
-                }else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
+                } else if(Region.SOUTH_AMERICA.mouseWithin(x, y)) {
                     update(timePeriod + " | South America");
+                } else if(Region.SOUTH_ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South Asia");
+                } else if(Region.SUB_SAHARAN_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Sub-Saharan Africa");
+                } else if(Region.WEST_AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | West Africa");
                 }
             }
             
