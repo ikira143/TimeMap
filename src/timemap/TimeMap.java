@@ -1,12 +1,10 @@
 package timemap;
 
 import gui.frame.MainFrame;
-import gui.map.Continent;
 import gui.map.WorldMap;
 import gui.output.OutTextAreaWrapper;
 import gui.time.TimeSelector;
 import java.io.IOException;
-import util.RectArea;
 
 public class TimeMap {
 
