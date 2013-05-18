@@ -9,73 +9,206 @@ Asia:
 [China] 1600 BCE - 1046 BCE: Shang Dynasty, first dynasty in China. Developed a writing system that was used to produce written records.
  
 
+/---/
+8000 BCE - 600 BCE
+
+East Asia:
+
+
 Europe:
+
+
+Meso America:
+
+
+Middle East:
+
+
+North Africa:
+
 
 North America:
 
+
+North Asia:
+
+
 Oceania:
+
 
 South America:
 
-/---/
 
+South Asia:
+
+
+Sub-Saharan Africa:
+
+
+West Africa:
+
+
+
+/---/
 600 BCE - 600 CE
-Africa:
 
-Asia:
+East Asia:
+
 
 Europe:
 
+
+Meso America:
+
+
+Middle East:
+
+
+North Africa:
+
+
 North America:
 
+
+North Asia:
+
+
 Oceania:
+
 
 South America:
 
 
-/---/
+South Asia:
 
+
+Sub-Saharan Africa:
+
+
+West Africa:
+
+
+
+/---/
 600 CE - 1450 CE
-Africa:
 
-Asia:
+East Asia:
+
 
 Europe:
 
+
+Meso America:
+
+
+Middle East:
+
+
+North Africa:
+
+
 North America:
+
+
+North Asia:
+
 
 Oceania:
 
+
 South America:
 
-/---/
 
+South Asia:
+
+
+Sub-Saharan Africa:
+
+
+West Africa:
+
+
+
+/---/
 1450 CE - 1750 CE
-Africa:
 
-Asia:
+East Asia:
+
 
 Europe:
 
+
+Meso America:
+
+
+Middle East:
+
+
+North Africa:
+
+
 North America:
+
+
+North Asia:
+
 
 Oceania:
 
+
 South America:
+
+
+South Asia:
+
+
+Sub-Saharan Africa:
+
+
+West Africa:
+
 
 
 /---/
-
 1750 CE - Present
-Africa:
 
-Asia:
+East Asia:
+
 
 Europe:
 
+
+Meso America:
+
+
+Middle East:
+
+
+North Africa:
+
+
 North America:
+
+
+North Asia:
+
 
 Oceania:
 
+
 South America:
+
+
+South Asia:
+
+
+Sub-Saharan Africa:
+
+
+West Africa:
+
+
+
+
+
 
