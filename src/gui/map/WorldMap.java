@@ -84,8 +84,85 @@ public class WorldMap extends JLabel {
         
         // Member methods
         public void processText(String timePeriod, int x, int y) {
+            update("Click anywhere! By that I mean land.");
+            
+            if(timePeriod.equals("8000 BCE - 600 BCE")) {
+                if(Continent.AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Africa");
+                }else if(Continent.ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Asia");
+                }else if(Continent.EUROPE.mouseWithin(x, y)) {
+                    update(timePeriod + " | Europe");
+                }else if(Continent.NORTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North America");
+                }else if(Continent.OCEANIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Oceania");
+                }else if(Continent.SOUTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South America");
+                }
+            } else if(timePeriod.equals("600 BCE - 600 CE")) {
+                if(Continent.AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Africa");
+                }else if(Continent.ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Asia");
+                }else if(Continent.EUROPE.mouseWithin(x, y)) {
+                    update(timePeriod + " | Europe");
+                }else if(Continent.NORTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North America");
+                }else if(Continent.OCEANIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Oceania");
+                }else if(Continent.SOUTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South America");
+                }
+            } else if(timePeriod.equals("600 CE - 1450 CE")) {
+                if(Continent.AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Africa");
+                }else if(Continent.ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Asia");
+                }else if(Continent.EUROPE.mouseWithin(x, y)) {
+                    update(timePeriod + " | Europe");
+                }else if(Continent.NORTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North America");
+                }else if(Continent.OCEANIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Oceania");
+                }else if(Continent.SOUTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South America");
+                }
+            } else if(timePeriod.equals("1450 CE - 1750 CE")) {
+                if(Continent.AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Africa");
+                }else if(Continent.ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Asia");
+                }else if(Continent.EUROPE.mouseWithin(x, y)) {
+                    update(timePeriod + " | Europe");
+                }else if(Continent.NORTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North America");
+                }else if(Continent.OCEANIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Oceania");
+                }else if(Continent.SOUTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South America");
+                }
+            } else if(timePeriod.equals("1750 CE - Present")) {
+                if(Continent.AFRICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Africa");
+                }else if(Continent.ASIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Asia");
+                }else if(Continent.EUROPE.mouseWithin(x, y)) {
+                    update(timePeriod + " | Europe");
+                }else if(Continent.NORTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | North America");
+                }else if(Continent.OCEANIA.mouseWithin(x, y)) {
+                    update(timePeriod + " | Oceania");
+                }else if(Continent.SOUTH_AMERICA.mouseWithin(x, y)) {
+                    update(timePeriod + " | South America");
+                }
+            }
             
             MainFrame.getInstance().repaint();
+        }
+        
+        private void update(String str) {
+            OutTextArea.getInstance().setText(str);
         }
     }
 }
