@@ -15,6 +15,5 @@ public class TimeMap {
         MainFrame.getInstance().add(TimeSelector.getInstance());
         MainFrame.getInstance().add(OutTextAreaWrapper.getInstance());
         MainFrame.getInstance().setVisible();
-        
     }
 }
