@@ -1,19 +1,11 @@
-8000 BCE - 600 BCE
-Africa:
-[Egypt] 1570 BCE - 1070 BCE: Height of Egyption civilization.
-[Middle East
+Data and stuffs
 
-Asia:
-[Middle East] 2900 BCE: Cuneiform writing develops in the lower Tigris and Euphrates river valley by the Sumerians. Based on pictograms and quickly developed to represent more abstract concepts.
-[Middle East] 2800 BCE - 1750 BCE: Babylonian Empire in lower Mesopotamia. Became major influence on the region due to resistance to Persian Empire. Developed 
-[China] 1600 BCE - 1046 BCE: Shang Dynasty, first dynasty in China. Developed a writing system that was used to produce written records.
- 
-
-/---/
+/----------------/
 8000 BCE - 600 BCE
 
 East Asia:
-
+1600 BCE - 1046 BCE: Shang Dynasty, first dynasty in China. Developed a writing system that was used to produce written records.
+ 
 
 Europe:
 
@@ -22,9 +14,13 @@ Meso America:
 
 
 Middle East:
+2900 BCE: Cuneiform writing develops in the lower Tigris and Euphrates river valley by the Sumerians. Based on pictograms and quickly developed to represent more abstract concepts.
+2800 BCE - 1750 BCE: Babylonian Empire in lower Mesopotamia. Became major influence on the region due to resistance to Persian Empire. 
+1570 BCE - 1070 BCE: Height of Egyption civilization.
 
 
 North Africa:
+1570 BCE - 1070 BCE: Height of Egyption civilization.
 
 
 North America:
@@ -49,13 +45,15 @@ West Africa:
 
 
 
-/---/
+/----------------/
 600 BCE - 600 CE
 
 East Asia:
+221 BCE - 210 BCE: China unified under the Qin Dynasty after a period of internal warfare. A philosophy called "Legalism" was implemented.
 
 
 Europe:
+476 CE: Fall of Western Roman Empire. Initiates the Dark Ages in Europe, during which trade, education, health, and quality of life declined. Ushered and era of feudalism.
 
 
 Meso America:
@@ -89,7 +87,7 @@ West Africa:
 
 
 
-/---/
+/----------------/
 600 CE - 1450 CE
 
 East Asia:
@@ -102,6 +100,7 @@ Meso America:
 
 
 Middle East:
+622 CE: Birth of Islam. 
 
 
 North Africa:
@@ -129,7 +128,7 @@ West Africa:
 
 
 
-/---/
+/----------------/
 1450 CE - 1750 CE
 
 East Asia:
@@ -142,12 +141,14 @@ Meso America:
 
 
 Middle East:
+1453 CE: Ottoman Empire seizes Contantinople. End of Eastern Roman Empire.
 
 
 North Africa:
 
 
 North America:
+1492 CE: Christopher Columbus makes contact with the Americas. Marks the beginning of the Columbian Exchange and colonization of the Americas.
 
 
 North Asia:
@@ -169,13 +170,15 @@ West Africa:
 
 
 
-/---/
+/----------------/
 1750 CE - Present
 
 East Asia:
 
 
 Europe:
+1914 CE - 1918 CE: World War I.
+1939 CE - 1945 CE: World War II.
 
 
 Meso America:
