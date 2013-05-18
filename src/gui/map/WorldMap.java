@@ -24,7 +24,9 @@ public class WorldMap extends JLabel {
     
     // Constructor
     private WorldMap() throws IOException {
-        super(new ImageIcon(ImageIO.read(new File("src/img/WorldMap.jpg"))));
+        //super(new ImageIcon(ImageIO.read(new File("src/img/WorldMap.jpg"))));
+        super();
+        this.setIcon(new ImageIcon(getClass().getResource("/img/WorldMap.jpg")));
         this.setBounds(MainFrame.getInstance().getPaneInsets().left + INIT_X, MainFrame.getInstance().getPaneInsets().bottom + INIT_Y, this.getPreferredSize().width, this.getPreferredSize().height);
         
         
