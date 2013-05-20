@@ -94,6 +94,7 @@ East Asia:
 
 
 Europe:
+1054: Great Schism. Christianity is divided into two chief sects between the Eastern and Western Roman Empire.
 
 
 Meso America:
