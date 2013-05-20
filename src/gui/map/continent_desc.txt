@@ -94,7 +94,7 @@ East Asia:
 
 
 Europe:
-1054: Great Schism. Christianity is divided into two chief sects between the Eastern and Western Roman Empire.
+1054: Great Schism. Christianity is divided into two chief sects between the Eastern Orthoxodoxy and Western Church Catholicism
 
 
 Meso America:
@@ -194,11 +194,15 @@ North Africa:
 
 
 North America:
+1929: Wall Street stock market crashes, North America enters Great Depression,
+1947: America enters a Cold War with Russia
 
 
 North Asia:
 1917: Russian Revolution; beginning of the dismantling of the Tsarist government and instituting the USSR in 1922 when the Bolsheviks emerged victorious from the civil war.
+1922: Instituion of the USSR with Stalin as leader
 1931: Japanese invasion of Manchuria
+1947: Russia enters a Cold War with America
 
 
 Oceania:
