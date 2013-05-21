@@ -6,6 +6,8 @@ import gui.map.WorldMap;
 import gui.output.OutTextAreaWrapper;
 import gui.time.TimeSelector;
 import java.io.IOException;
+import pop.PopImageLabel;
+import pop.PopMainFrame;
 import util.Updater;
 
 public class TimeMap {
@@ -18,6 +20,10 @@ public class TimeMap {
         MainFrame.getInstance().setVisible();
         
         Updater.getInstance().startUpdate();
+        
+        // Pop
+        
+        PopMainFrame.getInstance().add(PopImageLabel.getInstance());
         
     }
 }

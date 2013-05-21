@@ -23,6 +23,6 @@ public class EnablePop extends JCheckBox {
     }
     
     public boolean getState() {
-        return instance.getState();
+        return instance.isSelected();
     }
 }

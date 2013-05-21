@@ -1,5 +1,6 @@
 package gui.map;
 
+import gui.check.EnablePop;
 import gui.frame.MainFrame;
 import gui.output.OutTextArea;
 import gui.time.TimeSelector;
@@ -14,6 +15,7 @@ import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import pop.PopMainFrame;
 
 public class WorldMap extends JLabel {
     
@@ -96,6 +98,9 @@ public class WorldMap extends JLabel {
             
             if(timePeriod.equals("8000 BCE - 600 BCE")) {
                 if(Region.EAST_ASIA.mouseWithin(x, y)) {
+                    if(EnablePop.getInstance().getState() && !PopMainFrame.getInstance().isVisible()) {
+                        PopMainFrame.getInstance().setVisibity(true);
+                    }
                     update(timePeriod + " | East Asia");
                 } else if(Region.EUROPE.mouseWithin(x, y)) {
                     update(timePeriod + " | Europe");
