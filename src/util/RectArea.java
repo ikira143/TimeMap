@@ -4,10 +4,10 @@ package util;
 public class RectArea {
     
     // Properties
-    private int ulx, uly, urx, ury, dlx, dly, drx, dry;
+    private double ulx, uly, urx, ury, dlx, dly, drx, dry;
     
     // Constructor
-    public RectArea(int ulx, int uly, int urx, int ury, int dlx, int dly, int drx, int dry) {
+    public RectArea(double ulx, double uly, double urx, double ury, double dlx, double dly, double drx, double dry) {
         this.ulx = ulx;
         this.uly = uly;
         this.urx = urx;
@@ -19,35 +19,35 @@ public class RectArea {
     }
     
     // Member methods
-    public int getULX() {
+    public double getULX() {
         return ulx;
     }
     
-    public int getULY() {
+    public double getULY() {
         return uly;
     }
     
-    public int getURX() {
+    public double getURX() {
         return urx;
     }
     
-    public int getURY() {
+    public double getURY() {
         return ury;
     }
     
-    public int getDLX() {
+    public double getDLX() {
         return dlx;
     }
     
-    public int getDLY() {
+    public double getDLY() {
         return dly;
     }
     
-    public int getDRX() {
+    public double getDRX() {
         return drx;
     }
     
-    public int getDRY() {
+    public double getDRY() {
         return dry;
     }    
 }

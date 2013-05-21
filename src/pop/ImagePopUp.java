@@ -1,6 +1,9 @@
+package pop;
+
 import java.awt.Container;
 import java.awt.Insets;
 import javax.swing.JFrame;
+import javax.swing.UIManager;
 
 
 public class ImagePopUp {

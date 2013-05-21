@@ -9,6 +9,8 @@ import java.awt.event.MouseMotionListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -17,6 +19,7 @@ public class WorldMap extends JLabel {
     
     // Singleton
     private static WorldMap instance;
+    private ImageIcon mapIcon;
     
     // Properties
     private final int INIT_X = 10;
@@ -24,7 +27,8 @@ public class WorldMap extends JLabel {
     
     // Constructor
     private WorldMap() throws IOException {
-        this.setIcon(new ImageIcon(getClass().getResource("/img/WorldMap.jpg")));
+        mapIcon = new ImageIcon(getClass().getResource("/img/WorldMap.jpg"));
+        this.setIcon(mapIcon);
         this.setBounds(MainFrame.getInstance().getPaneInsets().left + INIT_X, MainFrame.getInstance().getPaneInsets().bottom + INIT_Y, this.getPreferredSize().width, this.getPreferredSize().height);
         
         
@@ -59,9 +63,13 @@ public class WorldMap extends JLabel {
     }
     
     // Static factory
-    public static WorldMap getInstance() throws IOException {
+    public static WorldMap getInstance() {
         if(instance == null) {
-            instance = new WorldMap();
+            try {
+                instance = new WorldMap();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
         }
         return instance;
     }
@@ -224,5 +232,21 @@ public class WorldMap extends JLabel {
         private void update(String str) {
             OutTextArea.getInstance().setText(str);
         }
+    }
+    
+    public int getMapWidth() {
+        return mapIcon.getIconWidth();
+    }
+    
+    public int getMapHeight() {
+        return mapIcon.getIconHeight();
+    }
+    
+    public ImageIcon getMapIcon() {
+        return mapIcon;
+    }
+    
+    public void setMapIcon(ImageIcon newIcon) {
+        this.setIcon(newIcon);
     }
 }
