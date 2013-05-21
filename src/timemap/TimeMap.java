@@ -1,5 +1,6 @@
 package timemap;
 
+import gui.check.EnablePop;
 import gui.frame.MainFrame;
 import gui.map.WorldMap;
 import gui.output.OutTextAreaWrapper;
@@ -13,6 +14,7 @@ public class TimeMap {
         MainFrame.getInstance().add(WorldMap.getInstance());
         MainFrame.getInstance().add(TimeSelector.getInstance());
         MainFrame.getInstance().add(OutTextAreaWrapper.getInstance());
+        MainFrame.getInstance().add(EnablePop.getInstance());
         MainFrame.getInstance().setVisible();
         
         Updater.getInstance().startUpdate();
